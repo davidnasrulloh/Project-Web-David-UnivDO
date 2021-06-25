@@ -1,0 +1,197 @@
+.atasan {
+    background: url(../gambar/g.jpg) center fixed;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    /* background-color: navy; */
+    /* display: flex; */
+    text-align: center;
+    padding: 20px;
+    /* justify-content: center; */
+    /* margin: 20px; */
+    /* position: fixed; */
+}
+
+header h1,
+h3 {
+    color: white;
+}
+
+aside h3 {
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(230, 165, 80);
+    /* opacity: 0.2; */
+}
+
+nav a {
+    color: white;
+}
+
+.cek {
+    border-right: 1px solid white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+aside {
+    width: 0%;
+    height: auto;
+    /* background-color: rgb(230, 165, 80); */
+    /* height: auto; */
+    /* background-color: cornflowerblue; */
+    /* background-color: rgb(230, 165, 80); */
+    /* height: 420px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-open {
+    /* text-align: center; */
+    width: 26%;
+    background-color: rgb(230, 165, 80);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+main {
+    width: 100%;
+    height: auto;
+    /* padding: 10px; */
+    background: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-geser {
+    width: 74%;
+    height: 100%;
+    background: white;
+    /* margin: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+.sidebar {
+    height: auto;
+    width: 25%;
+    padding: 10px;
+    padding-bottom: 20px;
+    list-style: none;
+    /* background: rgba(237, 178, 100, 0.74); */
+    /* background-color: #3097af; */
+    position: absolute;
+    left: -400px;
+    /* display: flex; */
+    transition: 0.5s;
+}
+
+.sidebar-open {
+    left: 0;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 5px;
+    /* background-color: rgba(237, 178, 100, 0.74); */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    transition: background-color 0.5s;
+}
+
+.sidebar li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.isi {
+    display: block;
+    text-align: center;
+}
+
+.tengah {
+    height: auto;
+    /* padding-bottom: 20px; */
+}
+
+.gambarku {
+    /* padding: 10px; */
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.supp {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.isisupp {
+    display: block;
+    text-align: center;
+}
+
+main h3 {
+    color: black;
+}
+
+.dibagi div {
+    display: inline-block;
+    background: grey;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.show2 {
+    font-weight: bold;
+    color: yellow;
+    background: black;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utama.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="shortcut icon" href="gambar/v.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>David Nasruloh | 190441100060 </title>
+</head>
+<body>
+    <div class="atasan">
+        <header>
+            <div style="display: flex;">
+                <div class="headeratas_satu">
+                    <div class="atas">
+                        <div class="isi_satu">
+                            <img src="gambar/k.jpg" alt="" width="60px" height="60px" style="border-radius: 10px;">
+                            <h3 style="margin-left: 20px; text-shadow: 2px 2px 15px black;" >David Nasrulloh | 190441100060</h3>
+                        </div>
+                    </div>
+                    <div class="atas_lagi">
+                        <button class="open-menu" onclick="openMenu()"> <i class="fas fa-bars"></i> Menu </button>
+                    </div>
+                </div>
+                <div class="menu-popup" id="myMenu">
+                    <div class="menu-container">
+                      <h4>PILIH MENU</h4> <hr>
+                      <ul class="menuku">
+                        <li><a href="utama.html">Tampilan Inti</a></li>
+                        <li><a href="datamahasiswa.php">Data Mahasiswa</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="bukutamu.php">Form Buku Tamu</a></li>
+                        <li><a href="tabeltamu.php">Tabel Buku Tamu</a></li>
+                        <li><a href="berita.html">Berita</a></li>
+                        <li><a href="pengguna.html">Pihak Terkait</a></li>
+                        <li><a href="setting.html">Setting</a></li>  
+                      </ul>
+                      <button type="button" class="btn cancel" onclick="closeMenu()">Close</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tengah">
+                <h3>Selamat Datang di Prototype Website <br> David Nasrulloh</h3>
+                <p>Ini adalah sebuah website yang disponsori oleh kantin coding dan juga davektor.id <br>  semua ini dibuat hanya untuk memenuhi <br> Tugas UAS Pemrograman Berbasis WEB D</p>
+                <div class="gas">
+                    <a href="#">
+                        <img src="gambar/k.jpg" alt="">
+                        <p>Kantin Coding</p>
+                    </a>
+                    <a href="#">
+                        <img src="gambar/v.jpg" alt="">
+                        <p>Davektor.id</p>
+                    </a>    
+                </div>
+            </div>
+        </header>
+    </div>
+    <footer>
+        Copyright &copy; 2021 | David Nasrulloh | 190441100060
+    </footer>
+
+    <script>
+        function openMenu() {
+            document.getElementById("myMenu").style.display = "block";
+        }
+        
+        function closeMenu() {
+            document.getElementById("myMenu").style.display = "none";
+        }      
+    </script>
+</body>
+</html>

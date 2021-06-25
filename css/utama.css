@@ -1,0 +1,205 @@
+.atasan {
+    background: url(../gambar/g.jpg) center fixed;
+}
+
+header {
+    width: 100%;
+    height: 640px;
+    /* background-color: navy; */
+    /* display: flex; */
+    text-align: center;
+    padding: 20px;
+    /* justify-content: center; */
+    /* margin: 20px; */
+    /* position: fixed; */
+}
+
+.headeratas_satu {
+    background-color: rgba(230, 148, 42, 0.74);
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    /* position: relative; */
+    /* position: fixed; */
+}
+
+header h1,
+h3 {
+    color: white;
+}
+
+.navigasiku {
+    background-color: rgb(24, 23, 22);
+    opacity: 0.4;
+}
+
+.atas {
+    padding: 10px;
+    text-align: left;
+    width: 70%;
+    /* position: fixed; */
+}
+
+.isi_satu {
+    display: flex;
+    align-items: center;
+}
+
+.atas_lagi {
+    text-align: right;
+    padding: 20px;
+    align-items: center;
+    width: 30%;
+}
+
+.atas_lagi button {
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: rgba(197, 104, 17, 0.808);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.atas_lagi button:hover {
+    color: white;
+    background-color: burlywood;
+}
+
+.tengah {
+    margin-top: 40px;
+}
+
+.tengah h3 {
+    text-shadow: 4px 4px 17px black;
+    margin: 30px;
+    font-size: 70px;
+}
+
+.tengah p {
+    text-shadow: 2px 2px 9px blue;
+    color: white;
+    font-size: 20px;
+}
+
+.gas {
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-flex;
+}
+
+.gas a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.gas a img {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+/* membuat pop up menu utama */
+.open-menu {
+    background-color: #555;
+    color: white;
+    /* padding: 16px 20px; */
+    border: none;
+    cursor: pointer;
+    /* opacity: 0.8; */
+    /* position: fixed; */
+    /* bottom: 23px; */
+    /* right: 0px; */
+
+    /* width: 280px; */
+}
+
+/* The popup form - hidden by default */
+.menu-popup {
+    display: none;
+    position: fixed;
+    /* bottom: 0; */
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 1;
+}
+
+/* Add styles to the form container */
+.menu-container {
+    /* max-width: 300px; */
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+
+/* Set a style for the submit/login button */
+.menu-container .btn {
+    color: white;
+    padding: 16px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    /* margin-bottom: 10px; */
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.menu-container .cancel {
+    background-color: red;
+    font-size: 18px;
+}
+
+/* Add some hover effects to buttons */
+.menu-container .btn:hover {
+    opacity: 1;
+}
+
+.menuku li a {
+    display: block;
+    padding: 15px;
+    width: 200px;
+    /* margin-left: 20px; */
+    /* margin-right: 30px; */
+    background-color: rgba(230, 148, 42, 0.74);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    transition: background-color 0.5s;
+}
+
+.menuku li {
+    list-style-type: none;
+    /* padding: 20px; */
+}
+
+.menuku li a:hover {
+    background-color: coral;
+    color: black;
+    /* padding: 20px; */
+}
+
+.menuku {
+    padding-inline-start: 0px;
+    width: 100%;
+}
+
+footer {
+    background: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
